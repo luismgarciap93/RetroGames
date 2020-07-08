@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9a5342def2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <div class="contenedor-todo">
+
+        <div class="chat-container none" id="chat-container">
+            <div class="chat-header">
+                <p>Cuentanos, ¿que te incomoda?</p>
+            </div>
+            <div class="chat-window" id="chat-window">
+                <ul id="chat-txt"></ul>
+            </div>
+            <div class="input-container">
+                <input type="text" class="chat-input" id="chat-input" placeholder="Dejanos tus comentarios"></input>
+                <button class="chat-btn" id="chat-btn">Enviar</button>
+            </div>
+        </div>
+        <button id="abrir-chat-btn" class="abrir-chat-btn "><i class="far fa-comments fa-3x fa-lg"></i></button>
+        <div class="modal-container " id="modal-container">
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <h3>Ingresa tus datos para continuar</h3>
+                    <button id="close-modal"><i class="far fa-times-circle fa-2x"></i></button>
+                </div>
+                <form class="modal-form" id="modal-form">
+                    <label for="modal-name">Nombre</label>
+                    <input type="text" id="modal-name" placeholder="Enter name">
+                    <label for="modal-last-name">Apellido</label>
+                    <input type="text" id="modal-last-name" placeholder="Enter last name">
+                    <label for="modal-password">Contraseña</label>
+                    <input type="password" id="modal-password" placeholder="Enter password">
+                    <button type="submit" id="modal-btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
