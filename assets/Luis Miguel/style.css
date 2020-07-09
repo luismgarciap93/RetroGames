@@ -37,7 +37,7 @@ body {
 }
 .chat-window {
   background-color: #fff;
-  padding: 5px 8px;
+  padding: 10px 8px;
   border-bottom: 1px solid #868685;
   height: 180px;
   overflow-y: auto;
@@ -46,14 +46,19 @@ body {
 }
 
 .txt-list {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: 5px;
-  border: 1px solid #868685;
-  padding: 5px 8px;
-  border-radius: 15px;
+  margin-bottom: 8px;
   max-width: 80%;
+}
+
+.txt-list p {
+  display: inline-block;
+  border: 1px solid #111;
+  border-radius: 15px;
+  padding: 5px 8px;
+  max-width: 100%;
 }
 .input-container {
   display: flex;

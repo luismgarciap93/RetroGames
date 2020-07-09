@@ -19,7 +19,7 @@ function enviarMensajes() {
 // Funcion escribir en el dom
 function escribirDom() {
   chatMensajes.forEach((element) => {
-    chatTxt.innerHTML += `<li class="txt-list" id="txt-list">${element}</li>`;
+    chatTxt.innerHTML += `<li class="txt-list" id="txt-list"> <p>${element}</p></li>`;
   });
 }
 // EVENTOS
