@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap");
 
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Blinker', sans-serif!important;
+=======
 html,
 body,
 h1,
@@ -9,6 +15,7 @@ h4,
 h5,
 h6 {
   font-family: "Blinker", sans-serif;
+>>>>>>> a00402e623f2b0f350eb6c7d7b73c7350af8956b
 }
 
 :root {
@@ -40,7 +47,11 @@ h6 {
   --breakpoint-xl: 1200px;
   /*     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+<<<<<<< HEAD
+    --font-family: 'Blinker', sans-serif!important;
+=======
   --font-family: "Blinker", sans-serif;
+>>>>>>> a00402e623f2b0f350eb6c7d7b73c7350af8956b
 }
 #sticky-header {
   background: #1c1421;
@@ -113,6 +124,18 @@ li {
 }
 
 .navbar-wrap ul li a {
+<<<<<<< HEAD
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #edeaea;
+    padding: 43px 26px;
+    display: block;
+    line-height: 1;
+    position: relative;
+    z-index: 1;/* 
+    font-family: 'Oxanium', cursive; */
+=======
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -123,6 +146,7 @@ li {
   position: relative;
   z-index: 1;
   font-family: "Oxanium", cursive;
+>>>>>>> a00402e623f2b0f350eb6c7d7b73c7350af8956b
 }
 
 .navbar-wrap ul li > .submenu {
