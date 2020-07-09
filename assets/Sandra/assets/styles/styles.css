@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    
+    background-color: #1f0e20;
+    font-family: 'Blinker', sans-serif;
+  
+   
+} 
+.cont1{
+    padding: 40px; 
+   
+   
+    } 
+
+.img1{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+/* .txt-centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #edeae4;
+    font-size: 40px;
+}  */
+.cont2{
+    background-color: #f0e7d4;
+    text-align: center;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.titulo, .titulo2{
+    padding-top: 15px;
+    text-align: center;
+    color: blanchedalmond;
+    height: 60px;
+    background-color: #381123;
+}
+
+
+.cont3, .cont4{
+    background-color: #edeae4;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+button{
+    background-color:#e4a101;
+    height: 40px;
+    width: 80px ;
+    border-radius: 4px;
+    
+    
+}
+.imgmario{
+    border-radius: 8px;
+    height: 150px;
+
+}
+.parrafo{
+    padding: 0 40px;
+
+}
+span{
+    color: #e4a101;
+}
+
+.cont5{
+    display: flex;
+    justify-content: space-around;
+}
+/* ACA EMPIEZA EL SLIDER */
+/* PROPIEDADES DEL CONTENEDOR */
+.slideshow-container{
+    max-width: 1000px;
+    position:relative;
+    margin:auto;
+   }
+/* SE ESCONDEN LAS IMG POR DEFECTO */
+.mySlides{
+    display:none;
+   }
+
+   /* ESTILOS PARA LOS BOTONES */
+.prev, .next{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+   }
+/* BOTONES A LA DER E IZ */
+   .next{
+    right:0;
+    border-radius:3px 0 0 3px;
+   }
+
+.prev:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+   } 
+/* ESTILOS PARA EL TEXTO */
+   .text{
+    color:#f2f2f2;
+    font-size:15px;
+    padding:8px 12px;
+    position:absolute;
+    bottom:8px;
+    width:100%;
+    text-align:center;
+   }
+   
+   .numbertext{
+    color:#f2f2f2;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0;
+   }
+/* ANIMACIONES */
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s;
+   }
+   
+   @-webkit-keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+   }
+   
+   @keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+   }
+
+
+
