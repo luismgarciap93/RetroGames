@@ -38,7 +38,7 @@ function displayWord() {
   const innerWord = wordEl.innerText.replace(/\n/g, "");
 
   if (innerWord === selectedWord) {
-    finalMessage.innerText = "Activo papi, coronaste 😃";
+    finalMessage.innerText = "Estás claro con las palabras, ganaste 😃!";
     popup.style.display = "flex";
   }
 }
@@ -64,7 +64,7 @@ function updateWrongLettersEl() {
 
   // Check if lost
   if (wrongLetters.length === figureParts.length) {
-    finalMessage.innerText = "Lo siento pero no la diste menor. 😕";
+    finalMessage.innerText = "Estás cero claro con las palabras, perdiste 😕";
     popup.style.display = "flex";
   }
 }
